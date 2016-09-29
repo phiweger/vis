@@ -1,0 +1,20 @@
+Package: alignfigR
+Title: Visualizing multiple sequence alignments
+Version: 0.1
+Description: Visualize multiple sequence alignment data as a colored grid
+Author: Stephanie J. Spielman
+Maintainer: Stephanie J Spielman <stephanie.spielman@gmail.com>
+Authors@R: c( person("Stephanie J.", "Spielman", role = c("aut", "cre"), email =
+    "stephanie.spielman@gmail.com") )
+Depends: R (>= 3.1.1)
+Imports:
+    ggplot2 (>= 0.9.2)
+License: GPL-2
+LazyData: true
+Suggests: knitr
+VignetteBuilder: knitr
+URL: https://github.com/sjspielman/alignfigR
+BugReports: https://github.com/sjspielman/alignfigR/issues
+Repository: CRAN
+Collate: 'alignfigR.R'
+NeedsCompilation: no
