@@ -14,3 +14,10 @@ library(alignfigR)
 
 For usage instructions and examples, see the [alignfigR vignette](http://htmlpreview.github.io/?https://github.com/sjspielman/alignfigR/blob/master/vignettes/introduction.html).
 
+tl;dr
+
+```
+fp = '~/tmp/example.fasta'
+my_data <- read_alignment(fp)
+plot_alignment(my_data, 'dna')
+```
