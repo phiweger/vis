@@ -1,4 +1,4 @@
-This code was stolen from [SJ Spielman](https://github.com/sjspielman/alignfigR), and modified so as to make it compatible with recent changes to ggplot2 v2.X, enjoy.
+This code was stolen from [SJ Spielman](https://github.com/sjspielman/alignfigR), and modified so as to make it compatible with recent changes to ggplot2 v2.X, while at the same time making it work with lowercase nucleotides (e.g. in MAFFT output).
 
 # alignfigR
 R package for creating multiple sequence alignment figures.

@@ -36,6 +36,13 @@ read_alignment <- function(file){
         else {
             temp_seq <- gsub(" ","",line)
             temp_seq <- gsub("\n","",temp_seq)
+
+
+            if (temp_seq != toupper(temp_seq)){
+                temp_seq <- toupper(temp_seq)
+            }
+
+
             seq_vector[seq_name] <- paste( seq_vector[seq_name], temp_seq, sep="" )
         }
                
